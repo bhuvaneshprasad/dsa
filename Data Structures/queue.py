@@ -1,5 +1,6 @@
 # Queue Data Structure
 
+
 class Queue:
     """
     1)A queue is a useful data structure in programming. It is similar to the ticket queue outside a cinema hall, where the first person entering the queue is the first person who gets the ticket.
@@ -20,7 +21,7 @@ class Queue:
     Time complexity: O(1)
     Space complexity: O(n)
     """
-    
+
     def __init__(self):
         """Initialize an empty queue."""
         self.items = []
@@ -32,10 +33,10 @@ class Queue:
     def dequeue(self):
         """
         Remove and return the item at the front of the queue.
-        
+
         Returns:
         - item: The item at the front of the queue.
-        
+
         Raises:
         - IndexError: If the queue is empty.
         """
@@ -47,7 +48,7 @@ class Queue:
     def peek(self):
         """
         Return the item at the front of the queue without removing it.
-        
+
         Returns:
         - item: The item at the front of the queue, or None if the queue is empty.
         """
@@ -59,7 +60,7 @@ class Queue:
     def is_empty(self):
         """
         Check if the queue is empty.
-        
+
         Returns:
         - bool: True if the queue is empty, False otherwise.
         """
@@ -68,7 +69,7 @@ class Queue:
     def size(self):
         """
         Return the number of items in the queue.
-        
+
         Returns:
         - int: The number of items in the queue.
         """
@@ -77,7 +78,7 @@ class Queue:
     def __str__(self):
         """
         Return a string representation of the queue.
-        
+
         Returns:
         - str: A string representation of the queue.
         """

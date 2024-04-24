@@ -1,5 +1,6 @@
 # Stack Data Structure
 
+
 class Stack:
     """
     1) A stack is a linear data structure that follows the principle of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first.
@@ -30,10 +31,10 @@ class Stack:
     def pop(self):
         """
         Remove and return the item at the top of the stack.
-        
+
         Returns:
         - item: The item at the top of the stack.
-        
+
         Raises:
         - IndexError: If the stack is empty.
         """
@@ -45,10 +46,10 @@ class Stack:
     def peek(self):
         """
         Return the item at the top of the stack without removing it.
-        
+
         Returns:
         - item: The item at the top of the stack.
-        
+
         Raises:
         - IndexError: If the stack is empty.
         """
@@ -60,7 +61,7 @@ class Stack:
     def is_empty(self):
         """
         Check if the stack is empty.
-        
+
         Returns:
         - bool: True if the stack is empty, False otherwise.
         """
@@ -69,11 +70,12 @@ class Stack:
     def size(self):
         """
         Return the number of items in the stack.
-        
+
         Returns:
         - int: The number of items in the stack.
         """
         return len(self.stack)
+
 
 # Example usage:
 stack = Stack()
