@@ -1,5 +1,6 @@
 # Linear Search Algorithm
 
+
 def linear_search(arr, target):
     """
     Perform a linear search on the given array to find the target element.
@@ -15,6 +16,7 @@ def linear_search(arr, target):
         if arr[i] == target:
             return i
     return -1
+
 
 # Example usage:
 arr = [4, 2, 7, 1, 9, 5]
