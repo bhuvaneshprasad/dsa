@@ -215,8 +215,7 @@ class MinHeap:
         """
         Clear the heap by resetting its size and count.
         """
-        if self.reset_size:
-            self.size = self.original_size
+        self.size = self.original_size
         self.heapArr = [0] * self.size
         self.count = 0
 
